@@ -1,0 +1,31 @@
+V1.0.9
+------
+ - Minor bugfix in interest point detection
+ - Windows version updated as well
+
+V1.0.8
+------
+ - Fixed PGM loading routine to work with all PGM file varieties
+ - Added -nl option to output descriptor without Laplacian
+ - P1 interest point loading option: too small scales could result in NaN for descriptor
+ - Fixed rare segmentation fault
+ - Included sample matching application to demonstrate use of Laplacian
+ - Sample matching also provides image output for visual testing of detection/matching result
+ - Compiler changed to v4.0.2 (problems with Pentium 3 compatibility of 4.0.0)
+
+V1.0.7
+------
+ - Fixed SIGSEGV occuring for some pictures
+ - Changed compiler to g++ v4.0.0. To compile against library, same compiled has to be used.
+ - Windows DLL available as well
+
+V1.0.6
+------
+ - Subpixel offset was not rotated w.r.t. dominant direction---fixed (thanks to Geert Willems)
+ - Surf is now a shared library, surflib.h provides an interface to the library
+ - Option to load interest points, verbose output flag (thanks to Bastian Leibe)
+Internal:
+ - Makefile updated to actually react to changes in source code
+ - Changed data structure for interest points to vector<>, removed unnecessary indirections
+ - Removed unnecessary allocation/deallocation in many places
+ - Slight speed up (about 10%)
