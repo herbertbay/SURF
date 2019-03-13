@@ -1,0 +1,10 @@
+V1.0.6
+------
+ - Subpixel offset was not rotated w.r.t. dominant direction---fixed (thanks to Geert Willems)
+ - Surf is now a shared library, surflib.h provides an interface to the library
+ - Option to load interest points, verbose output flag (thanks to Bastian Leibe)
+Internal:
+ - Makefile updated to actually react to changes in source code
+ - Changed data structure for interest points to vector<>, removed unnecessary indirections
+ - Removed unnecessary allocation/deallocation in many places
+ - Slight speed up (about 10%)
