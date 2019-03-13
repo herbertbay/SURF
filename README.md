@@ -6,6 +6,9 @@ The library has been compiled using g++, version 4.0.2, for usage on
 a machine Pentium 4 or better. To use the library in your program,
 you need to use the same compiler version.
 
+Update: You can compile it for your architecture. Please find the
+sources in `SURF-sources`
+
 If you require the library to be compiled using another compiler, or
 another platform (such as Athlon XP), please contact us.
 
