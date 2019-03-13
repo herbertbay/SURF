@@ -1,5 +1,7 @@
 # SURF - Speeded Up Robust Features
 
+This is the original source code or SURF, [Speeded Up Robust Features](https://www.vision.ee.ethz.ch/~surf/eccv06.pdf)
+
 ## Requirements
 
 The library has been compiled using g++, version 4.0.2, for usage on
