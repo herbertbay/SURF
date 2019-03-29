@@ -27,7 +27,7 @@
  * Any commercial use or any redistribution of this software
  * requires a license from one of the above mentioned establishments.
  *
- * For further details, contact Andreas Ess (aess@vision.ee.ethz.ch).
+ * For further details, contact Herbert Bay (herbert.bay@gmail.com).
  */
 
 #include <vector>
