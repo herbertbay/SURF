@@ -1,6 +1,6 @@
 /*
  * Speeded-Up Robust Features (SURF)
- * http://people.ee.ethz.ch/~surf
+ * https://github.com/herbertbay/SURF
  *
  * Sample application for feature matching using nearest-neighbor
  * ratio method.

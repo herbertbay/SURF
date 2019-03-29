@@ -1,6 +1,6 @@
 /*
  * Speeded-Up Robust Features (SURF)
- * http://people.ee.ethz.ch/~surf
+ * https://github.com/herbertbay/SURF
  *
  * Authors: Herbert Bay, Andreas Ess, Geert Willems
  * Windows port by Stefan Saur
