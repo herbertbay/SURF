@@ -1,6 +1,6 @@
 # SURF - Speeded Up Robust Features
 
-This is the original source code or SURF, [Speeded Up Robust Features](https://www.vision.ee.ethz.ch/~surf/eccv06.pdf)
+This is the original source code of SURF, [Speeded Up Robust Features](https://www.vision.ee.ethz.ch/~surf/eccv06.pdf)
 
 ## Requirements
 
